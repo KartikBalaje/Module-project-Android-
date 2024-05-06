@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EquipmentHealth"
+        tools:targetApi="31">
+        <activity
+            android:name=".TechnicianHome"
+            android:exported="false" />
+        <activity
+            android:name=".Index"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IssuesList"
+            android:exported="false" />
+        <activity
+            android:name=".AddFloor"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MangerHome" />
+        </activity>
+        <activity
+            android:name=".InProgress"
+            android:exported="false" />
+        <activity
+            android:name=".TechForm"
+            android:exported="false" />
+        <activity
+            android:name=".TutorialsAndGuideLines"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Collegelist" />
+        </activity>
+        <activity
+            android:name=".Status"
+            android:exported="false" />
+        <activity
+            android:name=".Ratings"
+            android:exported="false" />
+        <activity
+            android:name=".TechWorkAllocated"
+            android:exported="false" />
+        <activity
+            android:name=".Notification"
+            android:exported="false"></activity>
+        <activity
+            android:name=".TechStatmentForm"
+            android:exported="false" />
+        <activity
+            android:name=".CheckWorkStatus"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SupervisorHome" />
+        </activity>
+        <activity
+            android:name=".NotifyIssues"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SupervisorHome" />
+        </activity>
+        <activity
+            android:name=".SupervisorHome"
+            android:exported="false" />
+        <activity
+            android:name=".Building_details"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MangerHome" />
+        </activity>
+        <activity
+            android:name=".AdditionEquipmentDetails"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MangerHome" />
+        </activity>
+        <activity
+            android:name=".LabAdditionDetails"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MangerHome" />
+        </activity>
+        <activity
+            android:name=".EmployeDetails"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MangerHome" />
+        </activity>
+        <activity
+            android:name=".MangerHome"
+            android:exported="false" />
+        <activity
+            android:name=".Details"
+            android:exported="false" />
+        <activity
+            android:name=".EquipmentDetails"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Collegelist" />
+        </activity>
+        <activity
+            android:name=".EqupimentList"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Collegelist" />
+        </activity>
+        <activity
+            android:name=".Labslist"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Collegelist" />
+        </activity>
+        <activity
+            android:name=".Collegelist"
+            android:exported="false"></activity>
+        <activity
+            android:name=".Signup"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Login"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+    </application>
+
+</manifest>
