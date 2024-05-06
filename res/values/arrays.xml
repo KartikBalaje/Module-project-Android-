@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="euqipmentNames">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+    </string-array>
+    <string-array name="euqipmentId">
+        <item>id1</item>
+        <item>id2</item>
+        <item>id3</item>
+        <item>id4</item>
+    </string-array>
+    <string-array name="labNames">
+        <item>JAVA</item>
+        <item>MAD</item>
+        <item>BEE</item>
+        <item>PYTHON</item>
+    </string-array>
+
+
+    <string-array name="employeeNames">
+        <item>Ramesh</item>
+        <item>Suresh</item>
+        <item>Shiva</item>
+        <item>Kiran</item>
+        <item>Keshav</item>
+        <item>Manoj</item>
+    </string-array>
+
+    <string-array name="employeeId">
+        <item>jb1</item>
+        <item>jb2</item>
+        <item>jb3</item>
+        <item>jb4</item>
+        <item>jb5</item>
+        <item>jb6</item>
+    </string-array>
+
+    <string-array name="euipmentStatus">
+        <item>Select status</item>
+        <item>Working</item>
+        <item>Under Repair</item>
+        <item>Not Working</item>
+    </string-array>
+
+    <string-array name="userDesignations">
+        <item>Select designation</item>
+        <item>supervisor</item>
+        <item>technician</item>
+    </string-array>
+
+    <string-array name="notifyStatus">
+        <item>Select a status</item>
+        <item>Under maintenance</item>
+        <item>In process</item>
+        <item>Completed</item>
+    </string-array>
+
+</resources>

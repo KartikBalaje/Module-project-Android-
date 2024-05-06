@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-70dp"
+        tools:layout_editor_absoluteY="97dp">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="196dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Tutorials And"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/helptv"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="80dp"
+            android:text="Help"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/info"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="360dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/infooutline" />
+
+        <ImageButton
+            android:id="@+id/help"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+            android:layout_below="@id/info"
+            android:layout_marginLeft="360dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headsetmic" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/text1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="0dp"
+            android:text="Guide Lines :"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/text1"
+
+            android:layout_marginTop="80dp"
+
+            >
+
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:background="@drawable/bottomtab"
+                android:paddingLeft="20dp"
+                android:paddingTop="30dp"
+                android:paddingRight="20dp">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:text="•"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:text="Read the manual thoroughly before
+any \ntool."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:text="•"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:text="Wear appropriate personal protective
+equipment such as safety glasses ear
+protection , and gloves."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:text="•"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:text="Keep your work area well - lit and\n
+organized ."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:text="•"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:text="Avoid wearing loose clothing or
+jewelry \nthat could get caught in the
+tool ."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:text="•"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:text="Conduct a pre-operation inspection
+to ensure all components are  in
+good working \nconditon."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:text="•"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:text="Familarize yourself with the specific
+equipments, operating procedures
+and limitations."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:text="•"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:text="Clean equipment after use and store
+it appropriately."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+            </TableLayout>
+
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

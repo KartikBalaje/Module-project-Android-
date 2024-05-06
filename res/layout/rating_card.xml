@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    app:cardBackgroundColor="@color/white"
+    android:id="@+id/card_view"
+    android:layout_gravity="center"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/ep1"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:gravity="center_vertical"
+            android:text="Rakesh"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:layout_below="@id/ep1"
+            android:id="@+id/ratingBar_employee1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:numStars="5"
+            android:stepSize="1"
+            android:rating="0.0"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_add"
+        android:title="Add"
+        >
+    <menu>
+        <item
+            android:id="@+id/sub_employee"
+            android:title="Employee"/>
+        <item
+            android:id="@+id/sub_equipment"
+            android:title="Equipment"/>
+        <item
+            android:id="@+id/sub_lab"
+            android:title="Lab"/>
+        <item
+            android:id="@+id/sub_building"
+            android:title="Building"/>
+        <item
+            android:id="@+id/sub_floor"
+            android:title="Floor"
+            />
+    </menu>
+    </item>
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout"/>
+
+</menu>
